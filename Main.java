@@ -168,7 +168,7 @@ public class Main {
                                 scanner.next();
                             }
                         }
-                        int result5 = program.LastNumSum(a, b);
+                        int result5 = program.lastNumSum(a, b);
                         System.out.println("Сумма разряда единиц " + a + " и " + b + " равна " + result5);
                         System.out.println("----------------------------------------------------------------------------------\n");
                         break;
