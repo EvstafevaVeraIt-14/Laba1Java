@@ -4,12 +4,7 @@ public class ProceduralProgramming {
     //Методы
     public int SumLastNums(int x) { //задание 1.2 сумма двух последний цифр числа
         int n = (x % 10) + ((x / 10) % 10);
-        if (n >= 0) {
-            return n;
-        }
-        else {
-            return -n;
-        }
+        return Math.abs(n);
     }
 
     public boolean isPositive (int x){ //задание 1.4 определение положительности числа
@@ -24,8 +19,8 @@ public class ProceduralProgramming {
         return ((a % b == 0) || (b % a == 0));
     }
 
-    public int LastNumSum(int a, int b){ //задание 1.10 сложение разрядов единиц у двух чисел
-        return (a % 10) + (b % 10);
+    public int lastNumSum(int a, int b){ //задание 1.10 сложение разрядов единиц у двух чисел
+        return Math.abs(a % 10) + Math.abs(b % 10);
     }
 
     //Условия
@@ -176,11 +171,13 @@ public class ProceduralProgramming {
                 if (userNum == num) {
                     System.out.println("Вы угадали!");
                     break;
-                } else {
+                }
+                else {
                     System.out.println("Вы не угадали, попробуйте еще раз.");
                 }
 
-            } catch (NumberFormatException e) {
+            }
+            catch (NumberFormatException e) {
                 System.out.println("Недопустимый ввод. Введите целое число от 0 до 9.");
             }
         }
@@ -267,7 +264,6 @@ public class ProceduralProgramming {
         }
         return result;
     }
-
 
 }
 
