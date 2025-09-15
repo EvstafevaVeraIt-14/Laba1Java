@@ -32,38 +32,31 @@ public class ProceduralProgramming {
     }
 
     public String makeDecision (int x, int y) { //задание 2.4 строка сравнения
-        if (x > y){
+        if (x > y)
             return x + " > " + y;
-        }
-        else if (x < y) {
+        else if (x < y)
             return x + " < " + y;
-        }
-        else {
+        else
             return x + " == " + y;
-        }
     }
 
     public boolean sum3 (int x, int y, int z) { // задание 2.6 тройная сумма
         if (x + y == z) {
             return true;
-        }
-        else if (x + z == y) {
+        } else if (x + z == y) {
             return true;
-        }
-        else if (y + z == x) {
+        } else if (y + z == x) {
             return true;
         }
         return false;
     }
 
     public String age (int x) { // задание 2.8 возраст
-        if ((x % 10 == 1 ) && (x != 11)){
+        if ((x % 10 == 1 ) && (x != 11)) {
             return "год";
-        }
-        else if (((x % 10 == 2 ) && (x != 12)) || ((x % 10 == 3 ) && (x != 13)) || ((x % 10 == 4 ) && (x != 14))){
+        } else if (((x % 10 == 2 ) && (x != 12)) || ((x % 10 == 3 ) && (x != 13)) || ((x % 10 == 4 ) && (x != 14))) {
             return "года";
-        }
-        else {
+        } else {
             return "лет";
         }
     }
@@ -100,8 +93,7 @@ public class ProceduralProgramming {
                     result += " ";
                 }
             }
-        }
-        else {
+        } else {
             for (int i = x; i >= 0; i--) {
                 result += i;
                 if (i > 0) {
@@ -118,11 +110,11 @@ public class ProceduralProgramming {
             for (int i = 0; i > y; i--) {
                 result /=x;
             }
-        }
-        else {
+        } else {
             for (int i = 0; i < y; i++) {
                 result *=x;
             }
+
         }
         return result;
     }
@@ -166,13 +158,10 @@ public class ProceduralProgramming {
                 if (userNum < 0 || userNum > 9) {
                     System.out.println("Недопустимый ввод. Число должно быть от 0 до 9.");
                     continue;
-                }
-
-                if (userNum == num) {
+                } if (userNum == num) {
                     System.out.println("Вы угадали!");
                     break;
-                }
-                else {
+                } else {
                     System.out.println("Вы не угадали, попробуйте еще раз.");
                 }
 
@@ -186,11 +175,9 @@ public class ProceduralProgramming {
         String attemptWord;
         if (attempts % 10 == 1 && attempts % 100 != 11) {
             attemptWord = "попытку";
-        }
-        else if (attempts % 10 >= 2 && attempts % 10 <= 4 && (attempts % 100 < 10 || attempts % 100 >= 20)) {
+        } else if (attempts % 10 >= 2 && attempts % 10 <= 4 && (attempts % 100 < 10 || attempts % 100 >= 20)) {
             attemptWord = "попытки";
-        }
-        else {
+        } else {
             attemptWord = "попыток";
         }
 
@@ -200,7 +187,7 @@ public class ProceduralProgramming {
     //Массивы
     public int findLast (int[] arr, int x) { // задание 4.2 поиск последнего вхождения
         for (int i = arr.length - 1; i >= 0; i--) {
-            if (arr[i] == x){
+            if (arr[i] == x) {
                 return i;
             }
         }
