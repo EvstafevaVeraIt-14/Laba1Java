@@ -43,12 +43,10 @@ public class Main {
                                 num = scanner.nextInt();
                                 if (Math.abs(num) >= 10){
                                     validInput = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Число должно содержать минимум 2 разряда.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -67,8 +65,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 num2 = scanner.nextInt();
                                 validInput2 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -92,8 +89,7 @@ public class Main {
                             if (input.length() == 1) {
                                 x = input.charAt(0);
                                 validInput3 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимый ввод.");
                             }
                         }
@@ -113,8 +109,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 a = scanner.nextInt();
                                 validInput41 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -125,12 +120,10 @@ public class Main {
                                 b = scanner.nextInt();
                                 if (a==0 && b==0){
                                     System.out.println("Хотя бы одно число не должно равняться 0");
-                                }
-                                else{
+                                } else {
                                     validInput42 = true;
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -140,7 +133,7 @@ public class Main {
                         System.out.println("----------------------------------------------------------------------------------\n");
                         break;
                     }
-                    case 5:{
+                    case 5: {
                         System.out.println("\nСложение разряда единиц у чисел");
                         int a = 0;
                         int b = 0;
@@ -151,8 +144,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 a = scanner.nextInt();
                                 validInput51 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -162,8 +154,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 b = scanner.nextInt();
                                 validInput52 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -184,8 +175,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 a = scanner.nextInt();
                                 validInput61 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -195,8 +185,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 b = scanner.nextInt();
                                 validInput62 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -217,8 +206,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 a = scanner.nextInt();
                                 validInput71 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -228,8 +216,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 b = scanner.nextInt();
                                 validInput72 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -252,8 +239,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 a = scanner.nextInt();
                                 validInput81 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -263,8 +249,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 b = scanner.nextInt();
                                 validInput82 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -274,8 +259,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 c = scanner.nextInt();
                                 validInput83 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -295,12 +279,10 @@ public class Main {
                                 num = scanner.nextInt();
                                 if (num >= 0){
                                     validInput9 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Возраст не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -331,8 +313,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 num = scanner.nextInt();
                                 validInput11 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -353,8 +334,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 a = scanner.nextInt();
                                 validInput121 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -364,8 +344,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 b = scanner.nextInt();
                                 validInput122 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -384,8 +363,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 num = scanner.nextInt();
                                 validInput13 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -405,12 +383,10 @@ public class Main {
                                 num = scanner.nextInt();
                                 if (num >= 0){
                                     validInput14 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Высота не может быть отрицательной.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -436,12 +412,10 @@ public class Main {
                                 size = scanner.nextInt();
                                 if (size >= 0){
                                     validInput161 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Размер не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -471,8 +445,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 num = scanner.nextInt();
                                 validInput16 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -506,12 +479,10 @@ public class Main {
                                 size = scanner.nextInt();
                                 if (size >= 0){
                                     validInput171 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Размер не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -541,8 +512,7 @@ public class Main {
                             if (scanner.hasNextInt()) {
                                 x = scanner.nextInt();
                                 validInput17 = true;
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -555,12 +525,10 @@ public class Main {
                                 pos = scanner.nextInt();
                                 if (pos <= size && pos >= 0 ){
                                     validInput172 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимая позиция для данного массива.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -597,12 +565,10 @@ public class Main {
                                 size = scanner.nextInt();
                                 if (size >= 0){
                                     validInput18 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Размер не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -656,12 +622,10 @@ public class Main {
                                 size1 = scanner.nextInt();
                                 if (size1 >= 0){
                                     validInput191 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Размер не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -692,12 +656,10 @@ public class Main {
                                 size2 = scanner.nextInt();
                                 if (size2 >= 0){
                                     validInput192 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Размер не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
@@ -758,12 +720,10 @@ public class Main {
                                 size = scanner.nextInt();
                                 if (size >= 0){
                                     validInput20 = true;
-                                }
-                                else {
+                                } else {
                                     System.out.println("Недопустимый ввод. Размер не может быть отрицательным.");
                                 }
-                            }
-                            else {
+                            } else {
                                 System.out.println("Недопустимой ввод.");
                                 scanner.next();
                             }
