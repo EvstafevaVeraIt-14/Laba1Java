@@ -225,9 +225,9 @@ public class ProceduralProgramming {
     public void reverse (int[] arr) { // задание 4.6 реверс массива
         int left = 0;
         int right = arr.length - 1;
-
+        int temp;
         while (left < right) {
-            int temp = arr[left];
+            temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
             left++;
