@@ -32,12 +32,13 @@ public class ProceduralProgramming {
     }
 
     public String makeDecision (int x, int y) { //задание 2.4 строка сравнения
-        if (x > y)
+        if (x > y) {
             return x + " > " + y;
-        else if (x < y)
+        } else if (x < y) {
             return x + " < " + y;
-        else
+        } else {
             return x + " == " + y;
+        }
     }
 
     public boolean sum3 (int x, int y, int z) { // задание 2.6 тройная сумма
